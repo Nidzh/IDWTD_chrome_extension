@@ -4,6 +4,8 @@ var iter = document.getElementsByClassName('ProductCard__imageInner')
 //     '<img src="http://s1.iconbird.com/ico/2014/1/567/w512h5121389807754burnicon.png" class="underpic" style="    position: absolute;    transform: scale(0.09);    margin-top: -130px;    margin-left: -5px;    z-index: 1;" />');
 // }
 
+// Это код 
+
 Array.prototype.forEach.call(iter, (el) => {
     // el.style.position = 'relative';
     el.insertAdjacentHTML('afterBegin',
