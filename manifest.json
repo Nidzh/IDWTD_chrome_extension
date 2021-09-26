@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "VkusVill",
+    "version": "1.1",
+    "description": "Расширение",
+    "icons": {
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://vkusvill.ru/*" ],
+            "js": [ "app.js" ]
+        }
+    ]
+ }
