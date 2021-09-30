@@ -1,0 +1,4 @@
+let IDWTD = {
+    vprok: {},
+    vkusvill: {},
+}

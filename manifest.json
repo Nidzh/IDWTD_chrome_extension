@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [ "https://vkusvill.ru/*", "https://www.vprok.ru/*" ],
-            "js": [ "vkusvill.js", "vprok.js", "app.js" ]
+            "js": [ "init.js", "vkusvill.js", "vprok.js", "app.js" ]
         }
     ]
  }
