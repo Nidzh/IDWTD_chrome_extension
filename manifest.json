@@ -1,15 +1,15 @@
 {
     "manifest_version": 2,
-    "name": "VkusVill",
-    "version": "1.1",
-    "description": "Расширение",
+    "name": "IDWTD",
+    "version": "0.1.0",
+    "description": "Поиск арахиса",
     "icons": {
         "128": "icon.png"
     },
     "content_scripts": [
         {
-            "matches": [ "https://vkusvill.ru/*" ],
-            "js": [ "app.js" ]
+            "matches": [ "https://vkusvill.ru/*", "https://www.vprok.ru/*" ],
+            "js": [ "vkusvill.js", "vprok.js", "app.js" ]
         }
     ]
  }
