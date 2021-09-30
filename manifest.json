@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "IDWTD",
-    "version": "0.1.0",
-    "description": "Поиск арахиса",
+    "version": "1.0.0.0",
+    "description": "IDWTD - 'I don`t want to die'. Отображениие наличия арахиса в составе продуктов на таких маркетах, как ВкусВилл, Перекресток.",
     "icons": {
         "128": "icon.png"
     },
