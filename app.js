@@ -10,6 +10,11 @@ let currentDataProperty = map[currentOrigin];
 let currentData = IDWTD[currentDataProperty];
 
 function mark(elementToMark) {
+    let elChildren = elementToMark.children;
+    let imageExists = Array.prototype.some.call(elChildren, el => {
+        return el.className === 'underpic';
+    })
+    if (imageExists) return;
     elementToMark.insertAdjacentHTML('afterBegin', '<img src="https://cdn-icons-png.flaticon.com/512/1090/1090662.png" class="underpic" style="position: absolute; width: 16%; z-index: 1; right: 7%; top: 60%;" />');
 }
 
@@ -36,4 +41,9 @@ function parse(currentData) {
     })
 }
 
-parse(currentData)
+parse(currentData);
+
+let interval = 1000;
+setInterval(() => {
+    parse(currentData)
+}, interval);
