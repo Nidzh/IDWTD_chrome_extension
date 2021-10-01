@@ -8,4 +8,5 @@ ITWTD - I don`t want to die - расширение для Chrome, которое
   Список доступных маркетов будет пополнятся.
   
   Скриншоты:
+  
   ![image](https://user-images.githubusercontent.com/75805737/135680258-c2d78747-9b88-49da-ae5b-7d76d5c06b29.png)
